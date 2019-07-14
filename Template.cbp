@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Template" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release x32">
+				<Option output="C:/NotBackedup/C++/Projects/XLL/bin/Release/QFLibrary2.xll" prefix_auto="0" extension_auto="0" />
+				<Option object_output="./obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gnu_gcc_compiler_-_32bit" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/NotBackedUp/Programs/xlw/xlw/lib/libxlw-gcc-s-5_0_2f0.a" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="C:/NotBackedup/C++/Projects/XLL/bin/Release/x64_QFLibrary2.xll" prefix_auto="0" extension_auto="0" />
+				<Option object_output="./obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/NotBackedUp/Programs/xlw/xlw/lib/x64/libxlw-gcc-s-5_0_2f0.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Weffc++" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-std=c++17" />
+			<Add option="-g" />
+			<Add option="-static" />
+			<Add option="-D_DEBUG" />
+			<Add directory="C:/NotBackedUp/Programs/xlw/xlw/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+		</Linker>
+		<Unit filename="source/arma_xlw.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="source/arma_xlw.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="source/cellitem.h" />
+		<Unit filename="source/cppinterface.h" />
+		<Unit filename="source/source.cpp" />
+		<Unit filename="source/xlwWrapper.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<fortran_project />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

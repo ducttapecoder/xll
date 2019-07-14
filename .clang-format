@@ -1,0 +1,8 @@
+BasedOnStyle: LLVM
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortFunctionsOnASingleLine: true
+IndentWidth: 4
+ColumnLimit: 140
+DerivePointerAlignment: false
+PointerAlignment: Left
+NamespaceIndentation: All
